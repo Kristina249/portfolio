@@ -1,0 +1,324 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(221, 216, 204);
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2px;
+    padding-bottom: 2px;
+   }
+
+.logo {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+.buy-button {
+    background-color: rgb(130, 81, 29);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+    height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+header > *:first-child {
+    margin-left: 150px;
+}
+
+header > :nth-child(3) {
+    margin-right: 150px;
+}
+
+.image-for-main-block {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+
+.image-for-main-block img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.rectangle {
+    background: rgb(221, 216, 204);
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    display: block;
+    display: flex;          
+    justify-content: center; 
+    align-items: center;    
+    flex-direction: column; 
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+
+
+.rectangle > :nth-child(1) {
+    position: relative;
+    top: 30px;
+    font-size: 15pt;
+}
+
+.rectangle > :nth-child(2) {
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 40pt;
+    font-weight: bold;
+    top: -20px;
+}
+
+.rectangle > :nth-child(3) {
+    position: relative;
+    font-size: 15pt;
+    top: -70px;
+}
+
+.rectangle > :nth-child(4) {
+    position: relative;
+    bottom: 40px;
+    background-color: rgb(130, 81, 29);
+    color: white;
+    font-weight: bold;
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+    height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    flex-shrink: 0;
+} 
+
+.why-choose-us-block {
+    position: relative;
+}
+
+.why-choose-us-text {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40pt;
+}
+
+.why-choose-us-below-text {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15pt;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.pluses {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.pluses > * {
+    background-color: rgb(246, 245, 240);
+    height: 500px;
+    width: 370px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.first-plus img {
+    width: 100%;
+    height: 50%;
+    display: block;
+    object-fit: cover;
+}
+
+.second-plus img {
+    width: 100%;
+    height: 50%;
+    display: block;
+    object-fit: cover;
+}
+
+.third-plus img {
+   width: 100%;
+   height: 50%;
+   display: block;
+   object-fit: cover;
+} 
+
+.first-plus-headline {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.second-plus-headline {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.third-plus-headline {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.first-plus-text {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.second-plus-text {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.third-plus-text {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+.button-in-plus-box {
+    background-color: rgb(130, 81, 29);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+    height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.about-us-block {
+    background-color:  rgb(246, 245, 240);
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    align-items: center;
+    margin-top: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: relative;
+    height: auto;
+}
+
+.about-us-block > :nth-child(2) {
+    width: 400px;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.about-us-block > :nth-child(3) {
+    width: 200px;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+    top: 70px;
+    bottom: 70px;
+    border-radius: 20px;
+}
+
+.about-us-header {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -70px;
+}
+
+.about-us-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+.learn-more-button {
+    background-color: rgb(130, 81, 29);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 70px;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 16px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.socials {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    position: absolute;
+    left: 300px;
+    color: rgb(130, 81, 29);
+    font-size: 20px;
+}
+
+.text-for-sub-page {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 200px;
+}
+
+
+
